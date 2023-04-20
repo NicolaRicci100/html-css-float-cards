@@ -1,9 +1,4 @@
 
-/* Color Title 
-pink 211,65,112	*/
-
-
-/* General Settings */
 *{
     margin: 0;
     padding: 0;
@@ -29,6 +24,8 @@ h1{
 
 img{
     height: 100px;
+    float: left;
+    padding-right: 8px;
     
 }
 
@@ -39,6 +36,7 @@ img{
     color: white;
     background-color: black;
     margin: 10px;
+    line-height: 30px;
 }
 
 .clearfix::after{
@@ -50,4 +48,5 @@ img{
 address{
     color:rgb(72,175,283);
     font-style: normal;
+    cursor: pointer; /* ipotetico link a una mail */
 }
