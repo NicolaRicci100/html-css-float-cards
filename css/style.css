@@ -42,14 +42,14 @@ img{
     line-height: 30px;
 }
 
-.clearfix::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-
 address{
     color:rgb(72,175,283);
     font-style: normal;
     cursor: pointer; /* ipotetico link a una mail */
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
 }
